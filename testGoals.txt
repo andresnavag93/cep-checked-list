@@ -1,0 +1,17 @@
+En base al resultado del cuestionario realizado el cliente desea seguir avanzando con el proceso y le gustaría que realizaras esta prueba tecnica 
+
+Esta es la prueba, dado el JSON adjunto, construya en React o Angular, una maqueta que:
+1. Listar los elementos
+2. Paginar la lista, 10 elementos p/pag
+3. Permitir filtrar la tabla según el contenido de sus campos
+4. Dejarla andando en github pages
+
+Opcional (Medio) (ojalá lo hagan)
+1. El contenido debe ser responsivo
+
+Opcional (Avanzado)
+1. Agregar contador que me permita saber cuántos elementos hay vistos y cuantos no vistos
+2. Permitir marcar un elemento de la lista como "visto"
+3. Filtrar la lista por rango de fecha/hora (edited)
+
+Saludos
