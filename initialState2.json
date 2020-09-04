@@ -1,0 +1,20 @@
+{
+  "events": [
+    {
+      "id": 4348954,
+      "labels": ["alerta"],
+      "criticality": "alta",
+      "timestamp": "Nov 12, 2018 7:58:06 PM",
+      "eventBody": {
+        "symbol": "PDVSA"
+      },
+      "status": "desconcido",
+      "checked": "visto"
+    }
+  ],
+  "pagination": {
+    "page": 1,
+    "itemsPerPage": 100,
+    "totalRecords": 9628
+  }
+}

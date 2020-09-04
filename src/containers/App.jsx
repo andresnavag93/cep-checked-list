@@ -1,17 +1,19 @@
 /* eslint-disable react/jsx-props-no-spreading */
 import React from "react";
-import initialState from "../../initialState.json";
+// import initialState from "../../initialState.json";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+import Table from "../components/Table";
 
 import "../assets/styles/App.scss";
 
 const App = () => {
   return (
-    <>
-      <h1> IT Works</h1>
-      {initialState.events.map((item) => (
-        <h2 key={item.id}>{item.eventBody.symbol}</h2>
-      ))}
-    </>
+    <div className="body-flex">
+      <Header />
+      <Table />
+      <Footer />
+    </div>
   );
 };
 
