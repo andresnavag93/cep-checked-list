@@ -1,4 +1,4 @@
-## CEP Checked List
+## CEPTINEL Events List
 
 - List the elements
 - Paginate the list (10 elements per page)
