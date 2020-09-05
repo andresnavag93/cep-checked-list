@@ -3,17 +3,23 @@ import React from "react";
 // import initialState from "../../initialState.json";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import Banner from "../components/Banner";
 import Table from "../components/Table";
+import Card from "../components/Card";
 
 import "../assets/styles/App.scss";
 
 const App = () => {
   return (
-    <div className="body-flex">
+    <>
       <Header />
-      <Table />
+      <Banner />
+      <div className="body-flex">
+        <Card />
+        <Table />
+      </div>
       <Footer />
-    </div>
+    </>
   );
 };
 

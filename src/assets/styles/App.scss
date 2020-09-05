@@ -33,7 +33,7 @@ button {
 }
 
 body {
-  background: $primary-color;
+  // background: $gradiente;
   height: 100vh;
   margin: 0 auto;
   overscroll-behavior: none;
@@ -48,6 +48,7 @@ body {
 .body-flex {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  background: $gradiente;
+  // height: 100vh;
   justify-content: space-between;
 }
