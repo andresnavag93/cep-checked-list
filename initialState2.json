@@ -8,8 +8,107 @@
       "eventBody": {
         "symbol": "PDVSA"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "visto"
+    },
+    {
+      "id": 4348822,
+      "labels": ["alerta"],
+      "criticality": "alta",
+      "timestamp": "Nov 12, 2018 7:57:52 PM",
+      "eventBody": {
+        "symbol": "CEPTINEL"
+      },
+      "status": "desconocido",
+      "checked": "no visto"
+    },
+    {
+      "id": 4348710,
+      "labels": ["alerta"],
+      "criticality": "alta",
+      "timestamp": "Nov 12, 2018 7:57:24 PM",
+      "eventBody": {
+        "symbol": "CEPTINEL"
+      },
+      "status": "desconocido",
+      "checked": "visto"
+    },
+    {
+      "id": 4347246,
+      "labels": ["alerta"],
+      "criticality": "alta",
+      "timestamp": "Nov 12, 2018 7:52:08 PM",
+      "eventBody": {
+        "symbol": "SK"
+      },
+      "status": "desconocido",
+      "checked": "no visto"
+    },
+    {
+      "id": 4346325,
+      "labels": ["alerta"],
+      "criticality": "alta",
+      "timestamp": "Nov 12, 2018 7:35:58 PM",
+      "eventBody": {
+        "symbol": "BANESCO"
+      },
+      "status": "desconocido",
+      "checked": "no visto"
+    },
+    {
+      "id": 4345675,
+      "labels": ["alerta"],
+      "criticality": "alta",
+      "timestamp": "Nov 12, 2018 7:08:41 PM",
+      "eventBody": {
+        "symbol": "IWR"
+      },
+      "status": "desconocido",
+      "checked": "no visto"
+    },
+    {
+      "id": 4345621,
+      "labels": ["alerta"],
+      "criticality": "alta",
+      "timestamp": "Nov 12, 2018 7:06:10 PM",
+      "eventBody": {
+        "symbol": "BBVA"
+      },
+      "status": "desconocido",
+      "checked": "no visto"
+    },
+    {
+      "id": 4345528,
+      "labels": ["alerta"],
+      "criticality": "alta",
+      "timestamp": "Nov 12, 2018 6:59:55 PM",
+      "eventBody": {
+        "symbol": "IYM"
+      },
+      "status": "desconocido",
+      "checked": "no visto"
+    },
+    {
+      "id": 4342914,
+      "labels": ["alerta"],
+      "criticality": "alta",
+      "timestamp": "Nov 12, 2018 5:39:16 PM",
+      "eventBody": {
+        "symbol": "C"
+      },
+      "status": "desconocido",
+      "checked": "no visto"
+    },
+    {
+      "id": 4342751,
+      "labels": ["alerta"],
+      "criticality": "alta",
+      "timestamp": "Nov 12, 2018 5:31:09 PM",
+      "eventBody": {
+        "symbol": "MS"
+      },
+      "status": "desconocido",
+      "checked": "no visto"
     }
   ],
   "pagination": {
