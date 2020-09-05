@@ -1,7 +1,8 @@
 import React from "react";
+import { connect } from "react-redux";
 // import "../assets/styles/components/Cards.scss";
 
-const Card = () => {
+const Card = ({ noVisited, visited }) => {
   return (
     <section className="container">
       <div className="row m-5">
@@ -11,7 +12,7 @@ const Card = () => {
         >
           <div className="card-body">
             <h5 className="card-title">VISTOS</h5>
-            <h5 className="card-text">{2}</h5>
+            <h5 className="card-text">{visited}</h5>
           </div>
         </div>
 
@@ -21,7 +22,7 @@ const Card = () => {
         >
           <div className="card-body">
             <h5 className="card-title">NO VISTOS</h5>
-            <h5 className="card-text">{98}</h5>
+            <h5 className="card-text">{noVisited}</h5>
           </div>
         </div>
       </div>
@@ -29,4 +30,13 @@ const Card = () => {
   );
 };
 
-export default Card;
+// export default Card;
+
+const mapStateToProps = (state) => {
+  return {
+    noVisited: state.noVisited,
+    visited: state.visited,
+  };
+};
+// export default Table;
+export default connect(mapStateToProps, null)(Card);
