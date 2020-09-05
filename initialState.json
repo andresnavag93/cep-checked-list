@@ -8,7 +8,7 @@
       "eventBody": {
         "symbol": "PDVSA"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "visto"
     },
     {
@@ -19,7 +19,7 @@
       "eventBody": {
         "symbol": "CEPTINEL"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -30,7 +30,7 @@
       "eventBody": {
         "symbol": "CEPTINEL"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "visto"
     },
     {
@@ -41,7 +41,7 @@
       "eventBody": {
         "symbol": "SK"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -52,7 +52,7 @@
       "eventBody": {
         "symbol": "BANESCO"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -63,7 +63,7 @@
       "eventBody": {
         "symbol": "IWR"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -74,7 +74,7 @@
       "eventBody": {
         "symbol": "BBVA"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -85,7 +85,7 @@
       "eventBody": {
         "symbol": "IYM"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -96,7 +96,7 @@
       "eventBody": {
         "symbol": "C"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -107,7 +107,7 @@
       "eventBody": {
         "symbol": "MS"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -118,7 +118,7 @@
       "eventBody": {
         "symbol": "PQEK"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -129,7 +129,7 @@
       "eventBody": {
         "symbol": "PQEK"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -140,7 +140,7 @@
       "eventBody": {
         "symbol": "CEPTINEL"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -151,7 +151,7 @@
       "eventBody": {
         "symbol": "BANESCO"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -162,7 +162,7 @@
       "eventBody": {
         "symbol": "SIDOR"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -173,7 +173,7 @@
       "eventBody": {
         "symbol": "BBVA"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -184,7 +184,7 @@
       "eventBody": {
         "symbol": "AKBSIN"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -196,7 +196,7 @@
         "symbol": "ENELAM",
         "codigoOperacion": "VIRV"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -208,7 +208,7 @@
         "symbol": "MAPFHRE",
         "codigoOperacion": "VIRV"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -220,7 +220,7 @@
         "symbol": "SONDA",
         "codigoOperacion": "CIRV"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -232,7 +232,7 @@
         "symbol": "MAPFHRE",
         "codigoOperacion": "VIRV"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -244,7 +244,7 @@
         "symbol": "CAP",
         "codigoOperacion": "CIRV"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -256,7 +256,7 @@
         "symbol": "ZOFRI",
         "codigoOperacion": "VIRV"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -268,7 +268,7 @@
         "symbol": "ECL",
         "codigoOperacion": "CIRV"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -280,7 +280,7 @@
         "symbol": "SIDOR",
         "codigoOperacion": "CIRV"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -292,7 +292,7 @@
         "symbol": "ENTEL",
         "codigoOperacion": "CIRV"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -304,7 +304,7 @@
         "symbol": "ENELCHILE",
         "codigoOperacion": "CIRV"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -316,7 +316,7 @@
         "symbol": "ENELGXCH",
         "codigoOperacion": "VIRV"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -328,7 +328,7 @@
         "symbol": "COLBUN",
         "codigoOperacion": "VIRV"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -340,7 +340,7 @@
         "symbol": "ILC",
         "codigoOperacion": "CIRV"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -352,7 +352,7 @@
         "symbol": "COPEC",
         "codigoOperacion": "VIRV"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -364,7 +364,7 @@
         "symbol": "POTABLE",
         "codigoOperacion": "VIRV"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -376,7 +376,7 @@
         "symbol": "BANCO",
         "codigoOperacion": "CIRV"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -388,7 +388,7 @@
         "symbol": "POTABLE",
         "codigoOperacion": "CIRV"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -400,7 +400,7 @@
         "symbol": "FONDOC",
         "codigoOperacion": "CIRV"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -412,7 +412,7 @@
         "symbol": "AESGENER",
         "codigoOperacion": "CIRV"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -424,7 +424,7 @@
         "symbol": "MULTIFOODS",
         "codigoOperacion": "CIRV"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -436,7 +436,7 @@
         "symbol": "SK",
         "codigoOperacion": "VIRV"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -448,7 +448,7 @@
         "symbol": "CEPTINEL",
         "codigoOperacion": "VIRV"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -460,7 +460,7 @@
         "symbol": "CHILE",
         "codigoOperacion": "CIRV"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -472,7 +472,7 @@
         "symbol": "SQM-B",
         "codigoOperacion": "VIRV"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -484,7 +484,7 @@
         "symbol": "ANTARCHILE",
         "codigoOperacion": "VIRV"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -496,7 +496,7 @@
         "symbol": "FORUS",
         "codigoOperacion": "VIRV"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -508,7 +508,7 @@
         "symbol": "CEPTINEL",
         "codigoOperacion": "CIRV"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -520,7 +520,7 @@
         "symbol": "ECL",
         "codigoOperacion": "VIRV"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -532,7 +532,7 @@
         "symbol": "PROVIDA",
         "codigoOperacion": "CIRV"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -544,7 +544,7 @@
         "symbol": "MAPFHRE",
         "codigoOperacion": "CIRV"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -556,7 +556,7 @@
         "symbol": "CAP",
         "codigoOperacion": "VIRV"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -568,7 +568,7 @@
         "symbol": "MAKRO",
         "codigoOperacion": "CIRV"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -580,7 +580,7 @@
         "symbol": "CICPC",
         "codigoOperacion": "VIRV"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -592,7 +592,7 @@
         "symbol": "MAKRO",
         "codigoOperacion": "CIRV"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -604,7 +604,7 @@
         "symbol": "ECL",
         "codigoOperacion": "VIRV"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -616,7 +616,7 @@
         "symbol": "PARIS",
         "codigoOperacion": "VIRV"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -628,7 +628,7 @@
         "symbol": "VZLA",
         "codigoOperacion": "VIRV"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -640,7 +640,7 @@
         "symbol": "ILC",
         "codigoOperacion": "VIRV"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -652,7 +652,7 @@
         "symbol": "ILC",
         "codigoOperacion": "VIRV"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -664,7 +664,7 @@
         "symbol": "SMU",
         "codigoOperacion": "CIRV"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -676,7 +676,7 @@
         "symbol": "VAPORES",
         "codigoOperacion": "VIRV"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -688,7 +688,7 @@
         "symbol": "NORTEGRAN",
         "codigoOperacion": "VIRV"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -700,7 +700,7 @@
         "symbol": "AESGENER",
         "codigoOperacion": "VIRV"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -712,7 +712,7 @@
         "symbol": "NUEVAPOLAR",
         "codigoOperacion": "VIRV"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -724,7 +724,7 @@
         "symbol": "LAPOLA-OSA",
         "codigoOperacion": "VIRV"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -736,7 +736,7 @@
         "symbol": "MULTIFOODS",
         "codigoOperacion": "VIRV"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -748,7 +748,7 @@
         "symbol": "ALMENDRAL",
         "codigoOperacion": "CIRV"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -760,7 +760,7 @@
         "symbol": "SHUMAGER",
         "codigoOperacion": "VIRV"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -772,7 +772,7 @@
         "symbol": "BANCO",
         "codigoOperacion": "VIRV"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -784,7 +784,7 @@
         "symbol": "FONDOC",
         "codigoOperacion": "VIRV"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -796,7 +796,7 @@
         "symbol": "PARAUCO",
         "codigoOperacion": "CIRV"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -808,7 +808,7 @@
         "symbol": "COLBUN",
         "codigoOperacion": "CIRV"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -820,7 +820,7 @@
         "symbol": "FONDOC",
         "codigoOperacion": "CIRV"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -832,7 +832,7 @@
         "symbol": "ANDINA-B",
         "codigoOperacion": "CIRV"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -844,7 +844,7 @@
         "symbol": "CAP",
         "codigoOperacion": "CIRV"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -856,7 +856,7 @@
         "symbol": "CGE",
         "codigoOperacion": "CIRV"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -868,7 +868,7 @@
         "symbol": "FONDOC",
         "codigoOperacion": "CIRV"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -880,7 +880,7 @@
         "symbol": "GRAPF",
         "codigoOperacion": "VIRV"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -892,7 +892,7 @@
         "symbol": "SALFACORP",
         "codigoOperacion": "CIRV"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -904,7 +904,7 @@
         "symbol": "ANDINA-B",
         "codigoOperacion": "CIRV"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -916,7 +916,7 @@
         "symbol": "CHILE",
         "codigoOperacion": "VIRV"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -928,7 +928,7 @@
         "symbol": "ECL",
         "codigoOperacion": "CIRV"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -940,7 +940,7 @@
         "symbol": "CHILE",
         "codigoOperacion": "CIRV"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -952,7 +952,7 @@
         "symbol": "LULZSEC",
         "codigoOperacion": "CIRV"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -964,7 +964,7 @@
         "symbol": "LULZSEC",
         "codigoOperacion": "VIRV"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -976,7 +976,7 @@
         "symbol": "BBVA",
         "codigoOperacion": "VIRV"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -988,7 +988,7 @@
         "symbol": "TRIRATOS",
         "codigoOperacion": "VIRV"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -1000,7 +1000,7 @@
         "symbol": "SHUMAGER",
         "codigoOperacion": "VIRV"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -1012,7 +1012,7 @@
         "symbol": "SIDOR",
         "codigoOperacion": "VIRV"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -1024,7 +1024,7 @@
         "symbol": "QLEONR",
         "codigoOperacion": "VIRV"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -1036,7 +1036,7 @@
         "symbol": "AQUA",
         "codigoOperacion": "VIRV"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -1048,7 +1048,7 @@
         "symbol": "SMB",
         "codigoOperacion": "CIRV"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -1060,7 +1060,7 @@
         "symbol": "LULZSEC",
         "codigoOperacion": "VIRV"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -1072,7 +1072,7 @@
         "symbol": "LAS CONDES",
         "codigoOperacion": "VIRV"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -1084,7 +1084,7 @@
         "symbol": "FORUS",
         "codigoOperacion": "CIRV"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -1096,7 +1096,7 @@
         "symbol": "SMU",
         "codigoOperacion": "VIRV"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -1108,7 +1108,7 @@
         "symbol": "ENELGXCH",
         "codigoOperacion": "VIRV"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -1120,7 +1120,7 @@
         "symbol": "PARIS",
         "codigoOperacion": "VIRV"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -1132,7 +1132,7 @@
         "symbol": "SQM-B",
         "codigoOperacion": "CIRV"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -1144,7 +1144,7 @@
         "symbol": "SQM-B",
         "codigoOperacion": "VIRV"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -1156,7 +1156,7 @@
         "symbol": "SALFACORP",
         "codigoOperacion": "VIRV"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -1168,7 +1168,7 @@
         "symbol": "VZLA",
         "codigoOperacion": "CIRV"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     },
     {
@@ -1180,7 +1180,7 @@
         "symbol": "QLEONR",
         "codigoOperacion": "CIRV"
       },
-      "status": "desconcido",
+      "status": "desconocido",
       "checked": "no visto"
     }
   ],
