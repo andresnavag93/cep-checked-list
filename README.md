@@ -1,13 +1,13 @@
 # Ceptinel - Eventos
 
-###Parte 1
+### Parte 1
 
 - Listar los elementos.
 - Paginar la lista, 10 elementos p/pag.
 - Permitir filtrar la tabla según el contenido de sus campos.
 - Dejarla andando en github pages: [https://andresnavag93.github.io/ceptinel-events/index.html](https://andresnavag93.github.io/ceptinel-events/index.html)
 
-###Parte 2
+### Parte 2
 
 - El contenido debe ser responsivo
 
