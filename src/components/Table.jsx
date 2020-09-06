@@ -56,7 +56,7 @@ const Table = () => {
 
   useEffect(() => {
     let newFilterArray;
-    if (dates.dateStart !== null || dates.dateEnd !== null) {
+    if (dates.dateStart !== "" && dates.dateEnd !== "") {
       const dStart = moment(dates.dateStart);
       const dEnd = moment(dates.dateEnd);
       newFilterArray = events.filter((event) => {
@@ -69,6 +69,8 @@ const Table = () => {
         return false;
       });
       setFilterEvents(newFilterArray);
+    } else {
+      setFilterEvents(events);
     }
   }, [dates]);
 

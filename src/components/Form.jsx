@@ -5,24 +5,36 @@ import { setFilterDate } from "../actions";
 
 const Form = () => {
   const dispatch = useDispatch();
-  const [dates, setDates] = useState({});
+  const [dates, setDates] = useState({ dateStart: "", dateEnd: "" });
   const [error, setError] = useState(false);
+  const [clean, setClean] = useState(false);
+  const [message, setMessage] = useState("");
 
   const handleChange = (e) => {
     setDates({ ...dates, [e.target.name]: e.target.value });
   };
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (dates.dateStart === null || dates.dateEnd === null) {
-      setError(true);
+    if (clean) {
+      setError(false);
+      setClean(false);
+      setDates({ dateStart: "", dateEnd: "" });
+      dispatch(setFilterDate({ dateStart: "", dateEnd: "" }));
     } else {
-      const dateStart = moment(dates.dateStart);
-      const dateEnd = moment(dates.dateEnd);
-      if (dateEnd.diff(dateStart, "minutes") <= 0) {
+      if (dates.dateStart === "" || dates.dateEnd === "") {
         setError(true);
+        setMessage("Para filtrar, ingrese ambas fechas");
       } else {
-        setError(false);
-        dispatch(setFilterDate(dates));
+        const dateStart = moment(dates.dateStart);
+        const dateEnd = moment(dates.dateEnd);
+        if (dateEnd.diff(dateStart, "minutes") <= 0) {
+          setError(true);
+          setMessage("La fecha de inicio debe ser menor que la fecha final");
+        } else {
+          setError(false);
+          setClean(true);
+          dispatch(setFilterDate(dates));
+        }
       }
     }
   };
@@ -35,15 +47,17 @@ const Form = () => {
             <label>Fecha Inicio</label>
             <input
               onChange={handleChange}
+              value={dates.dateStart}
               type="datetime-local"
               className="form-control"
               name="dateStart"
             />
           </div>
           <div className="col my-2">
-            <label>Fecha Fin</label>
+            <label>Fecha Final</label>
             <input
               onChange={handleChange}
+              value={dates.dateEnd}
               type="datetime-local"
               className="form-control"
               name="dateEnd"
@@ -53,11 +67,12 @@ const Form = () => {
 
         <div className="text-center py-2 my-2">
           <button type="submit" className="btn btn-primary">
-            Fijar Rango
+            {!clean && "Filtrar"}
+            {clean && "Restablecer"}
           </button>
           {error && (
             <div className="alert alert-danger m-3" role="alert">
-              Fechas Vacias o Fecha Inicio es mayor Fecha Final
+              {message}
             </div>
           )}
         </div>

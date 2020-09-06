@@ -8,7 +8,7 @@ import App from "./containers/App";
 const initialState = {
   noVisited: 98,
   visited: 2,
-  dates: { dateStart: null, dateEnd: null },
+  dates: { dateStart: "", dateEnd: "" },
   events: [
     {
       id: 4348954,

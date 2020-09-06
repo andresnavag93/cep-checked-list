@@ -8,7 +8,7 @@ const Card = () => {
     <section className="container">
       <div className="row">
         <div
-          className="card col-sm-11 col-md-5 shadow mt-5 mx-auto bg-white rounded"
+          className="card col-sm-10 col-md-5 shadow mt-5 mx-auto bg-white rounded"
           align="center"
         >
           <div className="card-body">
@@ -18,7 +18,7 @@ const Card = () => {
         </div>
 
         <div
-          className="card col-sm-12 col-md-5 shadow mt-5 mx-auto bg-white rounded"
+          className="card col-sm-10 col-md-5 shadow mt-5 mx-auto bg-white rounded"
           align="center"
         >
           <div className="card-body">
