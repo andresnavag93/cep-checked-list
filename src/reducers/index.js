@@ -33,6 +33,13 @@ const reducer = (state, action) => {
         noVisited: state.noVisited + 1,
         visited: state.visited - 1,
       };
+
+    case "SET_FILTER_DATE":
+      return {
+        ...state,
+        dates: action.payload,
+      };
+
     default:
       return state;
   }
