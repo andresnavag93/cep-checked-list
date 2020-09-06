@@ -1,7 +1,7 @@
 import React from "react";
 import "../assets/styles/components/Banner.scss";
 
-import banner from "../assets/static/banner3.jpg";
+import banner from "../assets/static/banner.jpg";
 
 const Banner = () => {
   return (
@@ -10,10 +10,6 @@ const Banner = () => {
       <div className="banner__heading card-img-overlay">
         <h1 className="banner__tittle">Eventos</h1>
       </div>
-      {/* <section className="banner">
-      <img src={banner} className="banner__img img-fluid" alt="" />
-      <h1 className="banner__heading"> Event List </h1>
-    </section> */}
     </section>
   );
 };

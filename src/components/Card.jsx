@@ -1,13 +1,14 @@
 import React from "react";
-import { connect } from "react-redux";
-// import "../assets/styles/components/Cards.scss";
+import { useSelector } from "react-redux";
 
-const Card = ({ noVisited, visited }) => {
+const Card = () => {
+  const noVisited = useSelector((state) => state.noVisited);
+  const visited = useSelector((state) => state.visited);
   return (
     <section className="container">
-      <div className="row m-5">
+      <div className="row">
         <div
-          className="card col-sm-11 col-md-5 shadow my-5 mx-auto bg-white rounded"
+          className="card col-sm-11 col-md-5 shadow mt-5 mx-auto bg-white rounded"
           align="center"
         >
           <div className="card-body">
@@ -17,7 +18,7 @@ const Card = ({ noVisited, visited }) => {
         </div>
 
         <div
-          className="card col-sm-12 col-md-5 shadow my-5 mx-auto bg-white rounded"
+          className="card col-sm-12 col-md-5 shadow mt-5 mx-auto bg-white rounded"
           align="center"
         >
           <div className="card-body">
@@ -30,13 +31,4 @@ const Card = ({ noVisited, visited }) => {
   );
 };
 
-// export default Card;
-
-const mapStateToProps = (state) => {
-  return {
-    noVisited: state.noVisited,
-    visited: state.visited,
-  };
-};
-// export default Table;
-export default connect(mapStateToProps, null)(Card);
+export default Card;

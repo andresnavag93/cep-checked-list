@@ -5,6 +5,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Banner from "../components/Banner";
 import Table from "../components/Table";
+import Form from "../components/Form";
 import Card from "../components/Card";
 
 import "../assets/styles/App.scss";
@@ -17,6 +18,7 @@ const App = () => {
       <div className="body-flex">
         <Card />
         <Table />
+        <Form />
       </div>
       <Footer />
     </>

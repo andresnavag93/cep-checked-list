@@ -1,6 +1,7 @@
 /* eslint-disable react/jsx-props-no-spreading */
-import React, { forwardRef } from "react";
-import { connect } from "react-redux";
+import React, { forwardRef, useEffect, useState } from "react";
+import moment from "moment";
+import { useDispatch, useSelector } from "react-redux";
 
 import MaterialTable from "material-table";
 import AddBox from "@material-ui/icons/AddBox";
@@ -20,8 +21,6 @@ import Search from "@material-ui/icons/Search";
 import ViewColumn from "@material-ui/icons/ViewColumn";
 
 import { setVisited, setNotVisited } from "../actions";
-
-// import initialState from "../../initialState.json";
 
 import "../assets/styles/App.scss";
 
@@ -49,23 +48,60 @@ const tableIcons = {
   ViewColumn: forwardRef((props, ref) => <ViewColumn {...props} ref={ref} />),
 };
 
-const Table = (props) => {
-  const { events } = props;
+const Table = () => {
+  const dispatch = useDispatch();
+  const events = useSelector((state) => state.events);
+  const dates = useSelector((state) => state.dates);
+  const [filterEvents, setFilterEvents] = useState(events);
+
+  useEffect(() => {
+    let newFilterArray;
+    if (dates.dateStart !== null || dates.dateEnd !== null) {
+      const dStart = moment(dates.dateStart);
+      const dEnd = moment(dates.dateEnd);
+      newFilterArray = events.filter((event) => {
+        const dEvent = moment(event.timestamp);
+        if (
+          dEvent.diff(dStart, "minutes") >= 0 &&
+          dEvent.diff(dEnd, "minutes") <= 0
+        )
+          return true;
+        return false;
+      });
+      setFilterEvents(newFilterArray);
+    }
+  }, [dates]);
+
+  const changeRowChecked = ({ id, checked }) => {
+    const elementsIndex = filterEvents.findIndex(
+      (element) => element.id === id
+    );
+    const newArray = [...filterEvents];
+    newArray[elementsIndex] = {
+      ...newArray[elementsIndex],
+      checked,
+    };
+    return newArray;
+  };
 
   const handleSetVisited = ({ id, checked }) => {
     if (checked === "no visto") {
-      props.setVisited({ id, checked });
+      dispatch(setVisited({ id, checked }));
+      const newArray = changeRowChecked({ id, checked: "visto" });
+      setFilterEvents(newArray);
     }
   };
 
   const handleSetNotVisited = ({ id, checked }) => {
     if (checked === "visto") {
-      props.setNotVisited({ id, checked });
+      dispatch(setNotVisited({ id, checked }));
+      const newArray = changeRowChecked({ id, checked: "no visto" });
+      setFilterEvents(newArray);
     }
   };
 
   return (
-    <section className="container mb-5 mx-auto p-0 bg-white shadow-lg rounded">
+    <section className="container mt-5 mx-auto p-0 bg-white shadow-lg rounded">
       <MaterialTable
         icons={tableIcons}
         title=""
@@ -73,44 +109,52 @@ const Table = (props) => {
           {
             title: "Id",
             field: "id",
+            sorting: false,
             cellStyle: { textAlign: "center" },
           },
           {
             title: "Etiqueta",
             field: "labels[0]",
+            sorting: false,
             cellStyle: { textAlign: "center" },
           },
           {
             title: "Criticidad",
             field: "criticality",
+            sorting: false,
             cellStyle: { textAlign: "center" },
           },
           {
             title: "Fecha",
             field: "timestamp",
+            sorting: false,
             cellStyle: { textAlign: "center" },
           },
           {
             title: "Nombre",
             field: "eventBody.symbol",
+            sorting: false,
             cellStyle: { textAlign: "center" },
           },
           {
             title: "Status",
             field: "status",
+            sorting: false,
             cellStyle: { textAlign: "center" },
           },
           {
             title: "Visto",
             field: "checked",
+            sorting: false,
             cellStyle: { textAlign: "center" },
           },
         ]}
-        data={events}
+        data={filterEvents}
         options={{
           filtering: true,
           actionsColumnIndex: -1,
           headerStyle: { textAlign: "center" },
+          searchFieldAlignment: "right",
         }}
         actions={[
           {
@@ -135,13 +179,4 @@ const Table = (props) => {
   );
 };
 
-const mapStateToProps = (state) => {
-  return {
-    events: state.events,
-  };
-};
-
-const mapDispatchToProps = { setVisited, setNotVisited };
-
-// export default Table;
-export default connect(mapStateToProps, mapDispatchToProps)(Table);
+export default Table;
