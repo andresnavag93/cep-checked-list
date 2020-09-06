@@ -1,10 +1,18 @@
-## CEPTINEL Events List
+# Ceptinel - Eventos
 
-- List the elements
-- Paginate the list (10 elements per page)
-- Allow to filter the table according to the content of its fields
-- Leave it running on github pages
-- The content must be responsive
-- Add a counter that allows me to know how many elements are seen and how many are not seen
-- Allow marking a list item as "seen"
-- Filter the list by date / time range (edited)
+###Parte 1
+
+- Listar los elementos.
+- Paginar la lista, 10 elementos p/pag.
+- Permitir filtrar la tabla según el contenido de sus campos.
+- Dejarla andando en github pages: [https://andresnavag93.github.io/ceptinel-events/index.html](https://andresnavag93.github.io/ceptinel-events/index.html)
+
+###Parte 2
+
+- El contenido debe ser responsivo
+
+### Parte 3
+
+- Contador que me permita saber cuántos elementos hay vistos y no vistos.
+- Permitir marcar un elemento de la lista como "visto".
+- Filtrar la lista por rango de fecha/hora (edited).
