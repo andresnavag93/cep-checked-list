@@ -3,24 +3,24 @@
 </p>
 
 <h1 align="center">
-  Ceptinel - Eventos
+  Ceptinel - Events
 </h1>
 
 <br/>
 
-### Parte 1
+### Part 1
 
-- Listar los elementos.
-- Paginar la lista, 10 elementos p/pag.
-- Permitir filtrar la tabla según el contenido de sus campos.
-- Dejarla andando en github pages: [https://andresnavag93.github.io/ceptinel-events/index.html](https://andresnavag93.github.io/ceptinel-events/index.html)
+- List the elements.
+- Paginate the list, 10 elements per page.
+- Allow filtering the table based on the content of its fields.
+- Host it on GitHub Pages: [https://andresnavag93.github.io/ceptinel-events/index.html](https://andresnavag93.github.io/ceptinel-events/index.html)
 
-### Parte 2
+### Part 2
 
-- El contenido debe ser responsivo
+- The content should be responsive.
 
-### Parte 3
+### Part 3
 
-- Contador que me permita saber cuántos elementos hay vistos y no vistos.
-- Permitir marcar un elemento de la lista como "visto".
-- Filtrar la lista por rango de fecha/hora (edited).
+- A counter that allows me to know how many elements are seen and unseen.
+- Allow marking an element in the list as "seen."
+- Filter the list by date/time range (edited).
